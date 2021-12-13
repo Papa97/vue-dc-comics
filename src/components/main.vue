@@ -1,5 +1,9 @@
 <template>
-  <main></main>
+  <main>
+    <div class="container">
+      <div>&rarr; Content goes here &larr;</div>
+    </div>
+  </main>
 </template>
 
 <script>
@@ -8,5 +12,12 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped >
+main {
+  height: 100px;
+  background-color: rgb(29, 29, 29);
+  div {
+    color: white;
+  }
+}
 </style>
