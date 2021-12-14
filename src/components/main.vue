@@ -1,8 +1,7 @@
 <template>
   <main>
-    <div class="container">
-      <div>&rarr; Content goes here &larr;</div>
-    </div>
+    <div class="jumbo"></div>
+    <div class="container"></div>
   </main>
 </template>
 
@@ -19,5 +18,12 @@ main {
   div {
     color: white;
   }
+}
+
+.jumbo {
+  height: 700px;
+  background-image: url("../assets/img/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 </style>
