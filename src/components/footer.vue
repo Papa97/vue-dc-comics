@@ -121,7 +121,7 @@ export default {
 
 .footer-top {
   background-color: #0c7cec;
-  z-index: 99;
+  // z-index: 99;
 
   display: flex;
   justify-content: space-between;
